@@ -1,3 +1,7 @@
-const sumar = require('./funciones')
+const _ = require('./funciones')
 
-console.log(sumar(34,35))
+const a = 56, b = 12
+
+console.log(`La suma de ${a} y ${b} es ${_.sumar(a,b)}`)
+
+console.log(`La resta de ${a} y ${b} es ${_.restar(a,b)}`)
